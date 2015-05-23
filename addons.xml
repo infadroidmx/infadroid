@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.2" provider-name="Infadroid Boxes">
+<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.3" provider-name="Infadroid.tk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -18,7 +18,7 @@
     <extension point="xbmc.addon.repository" name="Infadroid Repository">
         <info>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/infadroidmx/infadroid/raw/master/repo</datadir>
+        <datadir zip="true">https://github.com/infadroidmx/infadroid/raw/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>ALl the latest Infadroid Add-ons</summary>
