@@ -36,22 +36,23 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.testersultimate" name="Testers Ultimate" version="2.0.2" provider-name="Testers Ultimate">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.simplejson" version="3.3.0"/>
-<import addon="script.module.urlresolver"  version="2.1.2"/>
-<import addon="script.module.addon.common" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en"/>
-<language>en</language>
-<description lang="en">Addon Provided By Testers Ultimate</description>
-<platform>all</platform>
-</extension>
+<addon id="plugin.video.testersultimate"
+       name="testersultimate"
+       version="0.0.2"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch TestersUltimate channels</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="repository.infadroid" name="Infadroid Boxes" version="1.0.1" provider-name="Infadroid Boxes">
