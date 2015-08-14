@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Testers-Ultimate"
+       name="Testers-Ultimate"
+       version="0.0.2"
+       provider-name="Pipcan Skype:pipcan2015">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Inicia sesion! y visualiza tus canales favoritos. ¿No tienes una cuenta?--- Realiza tu pedido aqui http://ftatesters.org/web  -- > Created By Pipcan Skype:pipcan2015</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>

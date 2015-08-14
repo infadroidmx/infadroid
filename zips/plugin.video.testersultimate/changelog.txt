@@ -1,5 +1,0 @@
-[1.16.0]
-ADDED CHAT SYSTEM
-
-SERVER FILES AVALIBLE
-The base files were provided by http://facebook.com/kodicontrol you can message them for any info
