@@ -14,7 +14,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mobile_nfl_com" name="NFL Mobile" version="1.1.2" provider-name="ZmFpciB1c2U">
+<addon id="plugin.video.mobile.nfl.com" name="NFL Mobile" version="1.1.2" provider-name="ZmFpciB1c2U">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.requests" version="1.1.0"/>
