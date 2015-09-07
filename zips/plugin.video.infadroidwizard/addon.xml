@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.3" provider-name="Infadroid.tk">
+<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.4" provider-name="Infadroid Boxes">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
