@@ -14,6 +14,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.mobile_nfl_com" name="NFL Mobile" version="1.1.2" provider-name="ZmFpciB1c2U">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">NFL Mobile</summary>
+        <language>en</language>
+        <description lang="en">View NFL Mobile Videos and live streams.  Please consider donating .1 bitcoin to address 17WfZdPMTTuygyUBYnSifaaB.  See README.txt for configuration instructions.</description>
+        <website>http://mobile.nfl.com</website>
+        <source></source>
+        <forum></forum>
+    </extension>
+</addon>
+
 <addon id="plugin.video.moviesultimate"
     name="moviesultimate"
     version="3.9.99"
