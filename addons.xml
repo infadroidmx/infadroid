@@ -14,27 +14,6 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2015.09.16.0"
-  name="SportsDevil"
-  provider-name="MaxMustermann,Al101,Hubbab3,Sattekop">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.mobile_nfl_com" name="NFL Mobile" version="1.1.2" provider-name="ZmFpciB1c2U">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -54,24 +33,20 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.moviesultimate"
-    name="moviesultimate"
-    version="3.9.99"
-    provider-name="moviesultimate">
+<addon id="plugin.video.moviesultimate" name="MoviesUltimate" version="1.0.0" provider-name="Team Ultimate">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+	<import addon="plugin.video.p2p-streams" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">PelÃ­culas y Estrenos</summary>
-    <description lang="es">PelÃ­culas, Estrenos y Mas... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye Peliculas en EspaÃ±ol, Latino, InglÃ©s Subtitulados.</description>
-    <summary lang="en">Movies and TV Shows on demand</summary>
-    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian, English and Romanian.</description>
+    <summary lang="en">Las mejores peliculas en un solo lugar!</summary>
+    <description lang="en">Team Ultimate trae para ti este gran addon FREE contenido variado desde las peliculas en latino, ingles , Anime , y Series de TV. Esperemos que lo disfrutes! Visita Nuestra Web http://ftatesters.org/web</description>
+    <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
-  </extension>
-  <extension point="xbmc.service" library="library_service.py" start="login|startup">
   </extension>
 </addon>
 
@@ -108,6 +83,22 @@
     </extension>
 </addon>
 
+<addon id="repository.iWillFolo.xbmc" name="iWillFolo add-ons" version="0.3" provider-name="iWillFolo.com">
+	<extension point="xbmc.addon.repository" name="iWillFolo add-on repository">
+		<info compressed="false">http://iwillfolo.com/wordpress/wp-content/uploads/download_dir/addons.xml</info>
+		<checksum>http://iwillfolo.com/wordpress/wp-content/uploads/download_dir/addons.xml.md5</checksum>
+		<datadir zip="true">http://iwillfolo.com/wordpress/wp-content/uploads/download_dir/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install add-ons from iWillFolo repository</summary>
+		<summary lang="de">Installiere Add-ons von iWillFolo Repository</summary>
+		<description>download and install add-ons from iWillFolo repository.</description>
+		<description lang="de">Downloade und installiere Add-ons von iWillFolo Repository.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.shadowcrew" name="ShadowCrew" version="3.0.0" provider-name="ShadowCrew">
 	<extension point="xbmc.addon.repository" name="ShadowCrew Repository">
 		<info compressed="false">http://shadowsrepo.info/repo/addons.xml</info>
@@ -120,6 +111,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
 <addon id="skin.bello" version="3.1.0" name="Bello" provider-name="Nessus">
   <requires>
 		<import addon="xbmc.gui" version="5.3.0"/>
