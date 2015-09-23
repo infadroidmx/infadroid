@@ -1,7 +1,0 @@
-1.0.0
-- First Release
-
-1.1.0
--Rewrote for new 2015 mobile app registration and streaming APIs
-
-
