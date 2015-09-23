@@ -14,6 +14,20 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.infadroidupdater" name="Infadroid Updater" version="1.0.0" provider-name="Infadroid.tk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>Infadroid Boxes</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Infadroid Updater</summary>
+    <description lang="en">Infadroid Updater provides an easy way to installing addons to your Infadroid device</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.mobile_nfl_com" name="NFL Mobile" version="1.1.2" provider-name="ZmFpciB1c2U">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
