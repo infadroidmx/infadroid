@@ -71,7 +71,7 @@
 
 <addon id="plugin.video.Testers-Ultimate"
        name="Testers-Ultimate"
-       version="0.0.5"
+       version="0.0.2"
        provider-name="Pipcan Skype:pipcan2015">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
