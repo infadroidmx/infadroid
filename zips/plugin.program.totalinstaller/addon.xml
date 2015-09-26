@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.totalinstaller" name=" [COLOR=orange]C[/COLOR]ommunity [COLOR=orange]P[/COLOR]ortal"  provider-name="noobsandnerds.com" check="1" version="2.1.4">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR=orange]C[/COLOR]ommunity [COLOR=orange]P[/COLOR]ortal</summary>
+	<description>Your all in one Installer. The simplest way to have a fully setup system in a matter of minutes. Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+    <ref>22eacd13c6e421ebba4638226fe88200</ref>
+    <platform>all</platform>
+  </extension>
+  <extension point="xbmc.addon.repository"
+              name="[COLOR=orange]noobs[/COLOR][COLOR=dodgerblue]and[/COLOR][COLOR=orange]nerds[/COLOR] repository">
+	<info compressed="false">https://github.com/noobsandnerds/noobsandnerds/raw/master/zips/addons.xml</info>
+	<checksum>https://github.com/noobsandnerds/noobsandnerds/raw/master/zips/addons.xml.md5</checksum>
+	<datadir zip="true">https://github.com/noobsandnerds/noobsandnerds/raw/master/zips/</datadir>
+  </extension>
+</addon>
