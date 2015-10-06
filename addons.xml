@@ -23,6 +23,20 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.infadroidupdater" name="Infadroid Updater" version="1.0.0" provider-name="Infadroid.tk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>Infadroid Boxes</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Infadroid Updater</summary>
+    <description lang="en">Infadroid Updater provides an easy way to installing addons to your Infadroid device</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.4" provider-name="Infadroid Boxes">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -54,27 +68,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Testers-Ultimate"
-       name="Testers-Ultimate"
-       version="0.0.2"
-       provider-name="Pipcan Skype:pipcan2015">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Inicia sesion! y visualiza tus canales favoritos. Â¿No tienes una cuenta?--- Realiza tu pedido aqui http://ftatesters.org/web  -- > Created By Pipcan Skype:pipcan2015</summary>
-    <language>en</language>
-    <description lang="en"></description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-
-<addon id="plugin.video.updater" name="Updater" version="1.0.0" provider-name="Infadroid.tk">
+<addon id="plugin.video.updater" name="Infadroid Updater" version="1.0.0" provider-name="Infadroid.tk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -82,29 +76,27 @@
         <provides>executable video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Updater</summary>
-    <description lang="en">Updater provides an easy way to installing addons to your Infadroid device</description>
+    <summary lang="en">Infadroid Updater</summary>
+    <description lang="en">Infadroid Updater provides an easy way to installing addons to your Infadroid device</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2015.09.24.0-c"
-  name="SportsDevil"
-  provider-name="MaxMustermann">
+<addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
   <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
   </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites - fixed catcher with this version</description>
+    <summary lang="en">Xtream-Codes IPTV</summary>
+    <website>http://www.xtream-codes.com/</website>
+    <description lang="en">IPTV Addon for Xteam-Codes iptv panel</description>
+    <forum>http://www.xtream-codes.com/forum</forum>
+    <email>mikkm@mikkm.ul.ee</email>
+    <disclaimer lang="en">You may use and share this addon however you like, you may NOT edit this addon in any way without conesnt of developer. Skype:MikkM</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -135,19 +127,6 @@
 		<description>download and install add-ons from iWillFolo repository.</description>
 		<description lang="de">Downloade und installiere Add-ons von iWillFolo Repository.</description>
 		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.shadowcrew" name="ShadowCrew" version="3.0.0" provider-name="ShadowCrew">
-	<extension point="xbmc.addon.repository" name="ShadowCrew Repository">
-		<info compressed="false">http://shadowsrepo.info/repo/addons.xml</info>
-		<checksum>http://shadowsrepo.info/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://shadowsrepo.info/repo/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://rh-project.info/</summary>
-    <description lang="en">Special Thank you to Hakamac, Metal Kettle and Xunity</description>
 		<platform>all</platform>
 	</extension>
 </addon>
