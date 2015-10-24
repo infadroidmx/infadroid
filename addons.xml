@@ -57,7 +57,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.4" provider-name="Infadroid Boxes">
+
+<addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.5" provider-name="Infadroid Boxes">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -65,10 +66,14 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Infadroid Wizard</summary>
-    <description lang="en">Infadroid Wizard provides an easy way to installing addons to your Infadroid device</description>
-    <platform>all</platform>
-  </extension>
+		<summary lang="en">Infadroid Wizard</summary>
+		<description lang="en">In this wizard you will find the latest builds from [COLOR blue]Infadroid[/COLOR][COLOR green]Boxes[/COLOR]</description>
+		<disclaimer lang="en">Updates included are...</disclaimer>
+		<forum></forum>
+		<source></source>
+		<website>http://facebook.com/infadroid</website>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.moviesultimate" name="MoviesUltimate" version="1.0.0" provider-name="Team Ultimate">
