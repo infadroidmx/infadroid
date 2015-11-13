@@ -18,7 +18,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.infadroidwizard1" name="Infadroid Wizard1" version="1.0.6" provider-name="Infadroid Boxes">
+<addon id="plugin.video.updater" name="Infadroid Updater" version="1.0.6" provider-name="Infadroid Boxes">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -26,8 +26,8 @@
         <provides>video executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-		<summary lang="en">Infadroid Wizard</summary>
-		<description lang="en">In this wizard you will find the latest builds from [COLOR blue]Infadroid[/COLOR][COLOR green]Boxes[/COLOR]</description>
+		<summary lang="en">Infadroid Updater</summary>
+		<description lang="en">In this Updater you will find the easiest way to update to new addons on [COLOR blue]Infadroid[/COLOR][COLOR green]Boxes[/COLOR]</description>
 		<disclaimer lang="en">Updates included are...</disclaimer>
 		<forum></forum>
 		<source></source>
