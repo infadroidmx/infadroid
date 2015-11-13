@@ -18,7 +18,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.infadroidupdater" name="Infadroid Updater" version="2.0.0" provider-name="Infadroid.tk">
+<addon id="plugin.video.updater" name="Infadroid Updater" version="2.0.0" provider-name="Infadroid.tk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -31,7 +31,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
 
 <addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
   <requires>
