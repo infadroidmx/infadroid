@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.wizard"
        name="Updater"
-       version="2.0.1"
-       provider-name="Original Addon By Pipcan">
+       version="2.0.2"
+       provider-name="Pipcan">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -11,7 +11,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Easy Fast Updates</summary>
+    <summary lang="en">Wizard Installer</summary>
     <language>en</language>
     <description lang="en"></description>
      <platform>all</platform>
