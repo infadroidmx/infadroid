@@ -67,4 +67,24 @@
         <platform>all</platform>
     </extension>
 </addon>
+<addon id="plugin.video.fos"
+       name="Infadroid PPV"
+       version="9.9.9"
+       provider-name="Created by Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  	<import addon="script.module.urlresolver" />
+</requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch all PPV and Sports Events</summary>
+    <language>en</language>
+    <description lang="en">PPV Events only on Infadroid Boxes</description>
+     <platform>all</platform>
+  </extension>
+</addon>
 </addons>
