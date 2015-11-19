@@ -17,7 +17,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.updater" name="Infadroid Updater" version="2.0.9" provider-name="Original Created by Pipcan">
+<addon id="plugin.video.updater" name="Infadroid Updater" version="2.1.0" provider-name="Original Created by Pipcan">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
