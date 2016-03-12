@@ -38,22 +38,22 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.dailyupdates" name="Daily Updates" version="2.0.0" provider-name="Infadroid">
+
+<addon id="plugin.program.dailyupdateswiz" name="[COLOR red][B]Daily[/B][/COLOR] [COLOR white][B]Updates[/B][/COLOR] [COLOR blue]Wizard[/COLOR]" version="5.0.0" provider-name="[COLOR red][B]Daily[/B][/COLOR][COLOR white][B]Updates[/B][/COLOR] [COLOR blue]Team[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-	<import addon="plugin.video.p2p-streams" optional="true"/>
+	<import addon="script.module.addon.common" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+        <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">One Stop For everything</summary>
-    <description lang="en">Daily Updates is a project that we will work on our sparetime. We hope that everyone enjoys it. </description>
-    <disclaimer lang="en"></disclaimer>
+    <summary lang="en">[COLOR red][B]Daily[/B][/COLOR] [COLOR white][B]Updates[/B][/COLOR] [COLOR blue]Wizard[/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Daily[/B][/COLOR] [COLOR white][B]Updates[/B][/COLOR] [COLOR blue]Wizard[/COLOR] provides easy access to [COLOR red][B]Daily[/B][/COLOR] [COLOR white][B]Updates[/B][/COLOR] [COLOR blue]Team[/COLOR] Builds and Various [B]Maintenance[/B] and [B]Development[/B] functions</description>
     <platform>all</platform>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.5" provider-name="Infadroid Boxes">
   <requires>
@@ -72,23 +72,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="plugin.video.updater" name="Infadroid Updater" version="2.1.0" provider-name="Original Created by Pipcan">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary lang="en">Infadroid Updater</summary>
-		<description lang="en">In this Updater you will find the easiest way to update to new addons on [COLOR blue]Infadroid[/COLOR][COLOR green]Boxes[/COLOR]</description>
-		<disclaimer lang="en">Updates included are...</disclaimer>
-		<forum></forum>
-		<source></source>
-		<website>http://facebook.com/infadroid</website>
-		<platform>all</platform>
-	</extension>
-</addon>
+
 
 <addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
   <requires>
@@ -121,25 +105,5 @@
         <disclaimer>General Disclaimer</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-<addon id="plugin.video.fos"
-       name="Infadroid PPV"
-       version="9.9.9"
-       provider-name="Created by Pipcan">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  	<import addon="script.module.urlresolver" />
-</requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Watch all PPV and Sports Events</summary>
-    <language>en</language>
-    <description lang="en">PPV Events only on Infadroid Boxes</description>
-     <platform>all</platform>
-  </extension>
 </addon>
 </addons>
