@@ -39,10 +39,11 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.dailyupdateswiz" name="[COLOR red][B]DAILY[/B][/COLOR] [COLOR white][B]UPDATES[/B][/COLOR] [COLOR blue][B]WIZARD[/B][/COLOR]" version="6.0.2" provider-name="[COLOR red]Daily[/COLOR] [COLOR white]Updates[/COLOR] [COLOR blue]Team[/COLOR]">
+<addon id="plugin.program.dailyupdateswiz" name="[COLOR red][B]DAILY[/B][/COLOR] [COLOR white][B]UPDATES[/B][/COLOR] [COLOR blue][B]WIZARD[/B][/COLOR]" version="6.0.3" provider-name="[COLOR red]Daily[/COLOR] [COLOR white]Updates[/COLOR] [COLOR blue]Team[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common"/>
+	<import addon="script.module.addon.common" />
+    <import addon="script.dupdates.installer" version="1.2.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -53,7 +54,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
 
 <addon id="plugin.video.infadroidwizard" name="Infadroid Wizard" version="1.0.5" provider-name="Infadroid Boxes">
   <requires>
