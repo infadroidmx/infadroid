@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.dupdates.installer" name="Daily Updates PVR Installer" version="1.2.0" provider-name="N/A">
+  <requires>
+    <!-- https://github.com/xbmc/xbmc/blob/Jarvis/addons/xbmc.python/addon.xml -->
+    <import addon="xbmc.python" version="2.24.0"/>
+    <!-- http://mirrors.kodi.tv/addons/jarvis/ -->
+    <import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Installs the Daily Updates Client PVR add-on.</summary>
+    <description lang="en">Installs the Daily Updates Client PVR add-on.</description>
+    <license>GNU General Public License, v2</license>
+    <language></language>
+    <forum></forum>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
