@@ -175,7 +175,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
+    <summary lang="en">Daily Updates IPTV</summary>
+    <description lang="en">This addon allows access to your Daily Updates account</description>
     <platform>all</platform>
   </extension>
 </addon>
