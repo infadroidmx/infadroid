@@ -166,7 +166,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dupdates" name="Daily Updates IPTV" version="1.0.1" provider-name="The Daily Updates Team">
+<addon id="plugin.video.dupdates" name="Daily Updates IPTV" version="1.0.2" provider-name="The Daily Updates Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -175,8 +175,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Daily Updates IPTV</summary>
-    <description lang="en">This addon allows access to your Daily Updates account</description>
+    <summary lang="en"></summary>
     <platform>all</platform>
   </extension>
 </addon>
