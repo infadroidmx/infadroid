@@ -92,7 +92,7 @@
   </extension>
 </addon>
 
-<addon id="repository.infadroid" name="Infadroid Boxes" version="1.0.1" provider-name="Infadroid Boxes">
+<addon id="repository.infadroid" name="Infadroid Boxes" version="1.0.2" provider-name="Infadroid Boxes">
     <extension point="xbmc.addon.repository" name="Infadroid Repository">
         <info>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml.md5</checksum>
@@ -151,7 +151,11 @@
   </extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="plugin.program.supremebuildswizard" name="[B][COLOR firebrick]S[/COLOR][COLOR ghostwhite]upreme[/COLOR] [COLOR firebrick]B[/COLOR][COLOR ghostwhite]uilds[/COLOR] [COLOR firebrick]W[/COLOR][COLOR ghostwhite]izard[/COLOR][/B]" version="2.0.0" provider-name="KodiSkills">
+=======
+<addon id="plugin.program.supremebuildswizard" name="[COLOR yellow]S[/COLOR]upreme [COLOR blue]B[/COLOR]uilds [COLOR red]W[/COLOR]izard" version="1.0.1" provider-name="The Daily Updates Team">
+>>>>>>> origin/master
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   <import addon="script.module.addon.common" />
@@ -166,7 +170,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dupdates" name="Daily Updates IPTV" version="1.0.1" provider-name="The Daily Updates Team">
+<addon id="plugin.video.dupdates" name="Daily Updates IPTV" version="1.0.2" provider-name="The Daily Updates Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -175,8 +179,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Daily Updates IPTV</summary>
-    <description lang="en">This addon allows access to your Daily Updates account</description>
+    <summary lang="en"></summary>
     <platform>all</platform>
   </extension>
 </addon>
