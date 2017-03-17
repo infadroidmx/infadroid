@@ -1,0 +1,11 @@
+[B]Version 1.0.0[/B]
+- Initial release
+
+[B]Version 1.0.1[/B]
+- added apk installer
+
+[B]Version 2.0.0[/B]
+- Major code changes and graphics update
+
+[B]Version 3.0.0[/B]
+- Switch to Aftermath base
