@@ -165,18 +165,22 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dupdates" name="Daily Updates IPTV" version="1.0.2" provider-name="The Daily Updates Team">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
+    <addon id="plugin.video.dupdates" version="1.0.3" name="Daily Updates IPTV" provider-name="Daily Updates">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>        
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <platform>all</platform>
-  </extension>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Daily Updates</summary>
+        <description>Daily Updates</description>
+        <disclaimer>Daily Updates</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <source></source>
+        <email></email>
+    </extension>
 </addon>
 
 </addons>
