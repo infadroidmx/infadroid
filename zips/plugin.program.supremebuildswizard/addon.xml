@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.supremebuildswizard" name="Supreme Builds Wizard" version="3.0.0" provider-name="KodiSkills">
+<addon id="plugin.program.supremebuildswizard" name="Supreme Builds Wizard" version="9.9.9" provider-name="KodiSkills">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Supreme Builds Wizard</summary>
-    <description lang="en">The Supreme Builds Wizard contains all official Supreme Builds, Add-ons and Apps, Maintenance Tools, Settings and more.</description>
+    <summary lang="en">Fuck You Lee</summary>
+    <description lang="en">Learn to make your own fucken repo.</description>
     <platform>all</platform>
   </extension>
 </addon>
