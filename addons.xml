@@ -186,7 +186,7 @@
 
 <addon id="plugin.video.TheRealUrbanKingz"
        name="The Real UrbanKingz"
-       version="3.7"
+       version="3.7.1"
        provider-name="The Real UrbanKingz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
