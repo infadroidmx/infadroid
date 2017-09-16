@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.TheRealUrbanKingz"
        name="The Real UrbanKingz"
-       version="3.8.1"
+       version="4.0"
        provider-name="The Real UrbanKingz">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -24,8 +23,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">First In Kodi</summary>
-    <description lang="en">TheRealUrbanKingzV3.0</description>
+    <summary lang="en">First In Kodi Cookie Monster</summary>
+    <description lang="en">TheRealUrbanKingz 4.0</description>
     <platform>all</platform>
   </extension>
 </addon>
