@@ -2,10 +2,9 @@
 <addon id="repository.CookieMonster" name="CookieMonster Repo" version="1.0" provider-name="UrbanKingz">
 	<extension point="xbmc.addon.repository" name="CookieMonster Repo">
 		<dir>
-			<info compressed="false">https://github.com/infadroidmx/infadroid/blob/master/Kingz/addon.xml</info>
+			<info>https://github.com/infadroidmx/infadroid/blob/master/Kingz/addon.xml</info>
 			<checksum>https://github.com/infadroidmx/infadroid/blob/master/Kingz/addon.xml.md5</checksum>
-			<datadir zip="true">https://github.com/infadroidmx/infadroid/tree/master/Kingz</datadir>
-	
+			<datadir zip="true">https://github.com/infadroidmx/infadroid/tree/master/Kingz/Plugins</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Repo for The Real UrbanKingz </summary>
